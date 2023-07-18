@@ -2,6 +2,229 @@
     padding:none;
   margin: none;
   font-family: 'Work Sans', sans-serif;
-  
 
+
+}
+/* this is the header style */
+
+header{
+  height: 100%;
+  width: auto;
+}
+nav{
+height: 120px;
+width: auto;
+background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.navbar{
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+.navicon{
+  display: flex;
+  align-items: center;
+
+}
+.navicon img {
+  margin-right: 20px;
+}
+.navicon h1{
+font-size: 45px;
+font-weight: 700;
+
+}
+
+
+.g{
+  background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+ background-clip:text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navmanu{
+  display: flex;
+  align-items: center;
+}
+
+.navmanu ul {
+  display: flex;
+}
+
+.navmanu ul li{
+  list-style-type: none;
+}
+.navmanu ul li >a {
+text-decoration: none;
+color: #3C354F;
+font-size: 18px;
+font-weight: 500;
+margin-right: 20px;
+}
+
+
+.nav-follow{
+  width: 262px;
+height: 56px;
+border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.youtube{
+  color: red;
+  margin: 0px 20px;
+}
+
+
+
+/* some code will be add there */
+
+
+
+
+
+
+
+
+
+/* some code will be add there */
+
+
+/* main section css start from here */
+
+.online-game{
+  padding: 0px 100px;
+}
+
+
+.online-game h1{
+  color: #0B0223;
+text-align: center;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.online-game p{
+  padding-top: 3px;
+  color: #534C64;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+
+.online-game-items{
+  display: flex;
+  justify-content: space-evenly;
+
+
+}
+
+.item{
+  width: 23%;
+
+}
+
+.item img{
+  width: 100%;
+}
+
+.item p{
+  font-size: small;
+  line-height: 15px;
+}
+
+
+.playinstant-container{
+  padding: 0px 100px;
+  margin-top: 100px;
+}
+.play-instantly{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+
+}
+
+.play-instantly-text{
+  padding-bottom: 350px;
+}
+
+.img1{
+  height: 580px;
+  width: 500px;
+;
+}
+.img2{
+  height: 320px;
+  width: 280px;
+  position:relative;
+  top: -200px;
+  left: -100px;
+
+}
+.pink{
+
+width:auto;
+height: 500px;
+background-color: #FF42A5;
+display: flex;
+align-items: center;
+
+
+}
+.pink-text{
+  width: 50%;
+  color:#FFF;
+  padding: 20px;
+
+}
+.pink-text h1{
+  text-align: center;
+}
+
+
+.pink-img{
+  background-image: url('images\Group 14.png');
+  width: 50%;
+  height: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.pink-img img{
+  height: 100%;
+  width: 100%;
+}
+.pink-list{
+  display: flex;
+  justify-content: space-between;
+}
+.list-2{
+  float: right;
+}
+.list-1 ul li{
+  list-style-type: none;
+}
+ .list-2 ul li{
+  list-style-type: none;
 }
