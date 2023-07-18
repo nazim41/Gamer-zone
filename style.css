@@ -228,3 +228,60 @@ align-items: center;
  .list-2 ul li{
   list-style-type: none;
 }
+
+.games{
+padding:  50px 200px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+
+.game-item {
+  display:flex ;
+  align-items: center;
+}
+
+footer{
+  width: 100%;
+  height:max-content;
+  background-color: #0B0223;
+  color: white;
+  text-align: center;
+
+}
+
+footer ul> li{
+  list-style-type: none;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+footer ul> li a {
+  text-decoration: none;
+  color: #FFF;
+}
+  footer ul {
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icons{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+  }
+
+  .footer-ul {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
