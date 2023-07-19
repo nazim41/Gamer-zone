@@ -88,17 +88,102 @@ align-items: center;
 
 
 
-/* some code will be add there */
+
+
+.header-content{
+  display: flex;
+  margin: 0px auto;
+  gap: 50px;
+  align-items: center;
+  width: auto;
+
+
+}
+
+.header-content-text{
+  background-image: url('images/Group 14.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left:  100px;
+
+}
+
+.header-h1{
+  color: #0B0223;
+font-size: 48px;
+font-weight: 600;
+text-transform: uppercase;
+}
+
+.header-h2{
+
+font-size: 95px;
+
+font-weight: 800;
+
+text-transform: uppercase;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+.header-content-text ul li{
+  list-style-type: none;
+  color: #534C64;
+font-size: 20px;
+font-weight: 500;
+text-transform: lowercase;
+
+}
+
+
+.download , .music{
+  color: #FF42A5;
+}
+
+.header-content-text, .header-image{
+  width: 50%;
+
+}
+.header-image img{
+  width: 650px;
+  height: 500px;
+}
+
+
+.header-btn-1, .header-btn-2{
+  color: #FFF;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  padding: 20px 40px;
+  display: inline-block;
+  margin-bottom: 30px;
+
+}
+
+
+.header-btn-1{
+  border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+border: none;
+}
+
+
+.header-btn-2 {
+  border-radius: 48px;
+background: #4EC5F7;
+border: none;
+margin-left: 20px;
+}
 
 
 
-
-
-
-
-
-
-/* some code will be add there */
 
 
 /* main section css start from here */
@@ -106,7 +191,6 @@ align-items: center;
 .online-game{
   padding: 0px 100px;
 }
-
 
 .online-game h1{
   color: #0B0223;
@@ -116,6 +200,14 @@ font-size: 48px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+}
+
+
+.funny-text{
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 
 .online-game p{
@@ -159,12 +251,31 @@ line-height: 30px; /* 166.667% */
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 140px;
 
 }
 
 .play-instantly-text{
   padding-bottom: 350px;
+}
+
+.play-instantly-text h1{
+  width: 330px;
+  text-align: right;
+font-size: 48px;
+
+font-weight: 700;
+line-height: 40px;
+}
+
+
+.play-instantly-text p{
+  width: 350px;
+  color: #534C64;
+text-align: right;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
 }
 
 .img1{
@@ -220,7 +331,7 @@ align-items: center;
   justify-content: space-between;
 }
 .list-2{
-  float: right;
+  text-align: right;
 }
 .list-1 ul li{
   list-style-type: none;
@@ -229,13 +340,24 @@ align-items: center;
   list-style-type: none;
 }
 
+
+.pink-btn{
+padding: 21px 40px;
+background-color: #FFF;
+font-size: 20px;
+font-weight: 600;
+text-transform: uppercase;
+border-radius: 45px;
+border: none;
+color :#F948B2;
+}
 .games{
-padding:  50px 200px;
+padding:  50px auto;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
 align-content: center;
-gap: 50px;
+gap: 10px;
 height: 500px;
 width: auto;
 }
@@ -243,6 +365,26 @@ width: auto;
 .game-item {
   display:flex ;
   align-items: center;
+  gap: 20px;
+  width: 230px;
+height: 80px;
+/* border: 2px solid red; */
+border-radius: 45px;
+padding-left: 20px;
+}
+.game-item:hover{
+  border: 2px solid red;
+  color: red;
+}
+
+
+.game-item p{
+  color: #0B0223;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
 }
 
 footer{
@@ -253,6 +395,15 @@ footer{
   text-align: center;
   padding-top: 100px;
   padding-bottom: 100px;
+
+}
+
+footer h3 {
+  display: inline-block;
+margin-left: 20px;
+font-size: 45px;
+
+font-weight: 700;
 
 }
 
@@ -269,18 +420,21 @@ footer ul> li a {
   footer ul {
     display: flex;
     align-items: center;
+    gap: 20px;
   }
 
   .footer-div1{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
   }
 
   .icons{
     display: flex;
     justify-content:center;
     align-items: center;
+    gap: 20px;
 
   }
 
@@ -288,4 +442,21 @@ footer ul> li a {
     display:flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
+  }
+
+  .icons i {
+    width: 40px;
+    font-size: 40px;
+    height: 40px;
+    margin-right: 20px;
+  }
+
+
+  .facebook {
+    color: #1877f2;
+  }
+
+  .youtube {
+    color: red;
   }
